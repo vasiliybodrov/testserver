@@ -477,7 +477,6 @@ int main(void) {
 #endif // USE_RANDOM_KEEP_ALIVE
 
 #if defined(USE_RANDOM_TCP_NO_DELAY) && USE_RANDOM_TCP_NO_DELAY == 1
-//        FORCE_TCP_NO_DELAY
                             do {
                                 std::random_device rd;
                                 std::mt19937 gen(rd());
